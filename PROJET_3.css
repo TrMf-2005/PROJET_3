@@ -1,0 +1,746 @@
+body{
+   background-image: url("bg2.jpg");
+    background-size: cover;
+    background-position:top;
+    background-repeat: repeat;
+    text-align: center;
+    
+}
+
+
+.fleche{
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 75px;
+    margin-bottom: 65px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 20px;
+
+}
+.p1{
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+.image{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 20% 15% 25% 40%; 
+    gap: 0px;  
+    margin: 0px;
+    height: 60px;
+   background-color: gainsboro;
+   opacity:0.6;
+}
+
+span{
+    margin: 10px;
+}
+.ECRIT{
+    position: left;
+}
+.ecrit1{
+    padding: 19px;
+    padding-bottom: 0px;
+}
+.ecrit2{
+margin-left: 40%;
+}
+.IMG{
+    margin-left: 200px;
+}
+section{
+    background-color: white;
+   padding-top: 60px;
+}
+.GRANDE{
+    position: absolute;
+    display: block;
+    left: 10%;
+    right: 10%;
+    width: 80%;  
+}
+.DATE{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.line{
+    background-color: gray;
+    height: 1px;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+.date{
+    font-weight: bold;
+    white-space: nowrap;
+}
+.cj{
+    width: 80%;
+    margin-top: 40px;
+}
+h2{
+    font-size: 35px;
+}
+.p3{
+    padding: 10px;
+    height: 20px;
+    display: inline-block;
+    border: solid ;
+    width: 20%;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+.p2{
+    width: 50%;
+    font-size: 60px;
+
+}
+p{
+   
+    top: 100px;
+    margin: 0px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 0px;
+     left: 5%;
+    right: 5%;
+  width: 100%;
+      height: 700px;
+
+}
+.bos{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.s1{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+    border-top: solid 1px gray;
+    border-right: solid 1px gray;   
+   
+}
+.s2{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+    border-top: solid 1px gray;   
+}
+strong{
+    top: 50px;
+    font-size: 20px;
+}
+.full{
+    display: inline-block;
+   padding: 10px;
+   margin: 35px;
+    height: 20px;
+     border: solid ;
+    width: 40%;
+}
+footer{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 600px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+aside{
+padding: 50px;
+}
+
+.case1{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.case2{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+
+}
+.case3{
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 0px;
+    position: absolute;
+}
+.p6{
+    border: solid 1px black;
+    width: 30%;
+    height: 20px;
+    padding: 15px;
+
+
+}
+article{
+    display: grid;
+   grid-template-areas: 
+	"adresse"
+	"phone"
+	"email"
+    "social";
+    gap: 0px;
+    width: 100%;
+    text-align: right;
+    
+
+}
+.ADRESSE{
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 50px;
+}
+.PHONE{
+    border-left: solid 1px gray;
+    text-align: justify;
+    padding: 50px;
+}
+.EMAIL{
+    border-left: solid 1px gray;
+    border-top: solid 1px gray;
+    text-align: justify;
+    padding: 50px;
+}
+.SOCIAL{
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 50px;
+}
+.adresse2{
+display: inline-block;
+margin-left: 80px;
+font-size: 18px;
+}
+.phone2{
+display: inline;
+margin-left: 100px;
+}
+.email2{
+display: inline;
+margin-left: 100px;
+}
+.social2{
+display: inline;
+margin-left: 50px;
+}
+.image2{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 480px) and (max-width: 560px) { 
+  body{
+   background-image: url("bgm.jpg");
+    background-size: cover;
+    background-position:top;
+    background-repeat: repeat;
+    text-align: center;
+    
+}
+
+
+.fleche{
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 75px;
+    margin-bottom: 135px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 20px;
+
+}
+.p1{
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+.image{
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+}
+
+nav{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr; 
+    height: 60px;
+   background-color: gainsboro;
+   opacity:0.5;
+}
+
+.ecrit1{
+    padding: 13px;
+    padding-bottom: 0px;
+}
+
+
+section{
+    background-color: white;
+   padding-top: 60px;
+   height: 2150px;
+}
+.GRANDE{
+    position: absolute;
+    display: block;
+    left: 10%;
+    right: 10%;
+    width: 80%;  
+}
+.cj{
+    width: 80%;
+    margin-top: 40px;
+}
+h2{
+    font-size: 25px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.p3{
+    padding: 10px;
+    height: 20px;
+    display: inline-block;
+    border: solid 1px;
+    width: 40%;
+    margin: 50px;
+    margin-bottom: 90px;
+}
+
+em{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+p{
+    font-size: 18px;
+    top: 100px;
+    margin: 0px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+     left: 5%;
+    right: 5%;
+    width: 100%;
+
+}
+.bos{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.s1{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+   
+}
+.s2{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+strong{
+    top: 50px;
+    font-size: 14px;
+}
+.full{
+    display: inline-block;
+   padding: 10px;
+   margin: 35px;
+      margin-bottom: 60px;
+    height: 20px;
+     border: solid ;
+    width: 40%;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    height: 600px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 1000px;
+
+}
+aside{
+padding: 50px;
+height: max-content;
+}
+
+.case1{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.case2{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+
+}
+.case3{
+    width: 100%;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 0px;
+    position: absolute;
+}
+.p6{
+    border: solid 1px black;
+    width: 50%;
+    height: 20px;
+    padding: 15px;
+
+
+}
+article{
+    display: grid;
+   grid-template-areas: 
+	"adresse"
+	"phone"
+	"email"
+    "social";
+    gap: 0px;
+    width: 100%;
+    text-align: left;
+}
+.ADRESSE{
+    display: block;
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 25px;
+}
+.PHONE{
+    border-left: solid 1px gray;
+    text-align: justify;
+    padding: 40px;
+}
+.EMAIL{
+    border-left: solid 1px gray;
+    border-top: solid 1px gray;
+    text-align: justify;
+    padding: 40px;
+}
+.SOCIAL{
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 30px;
+}
+.adresse2{
+display: inline-block;
+margin-left: 40px;
+font-size: 14px;
+}
+.phone2{
+display: inline;
+margin-left: 50px;
+font-size: 14px;
+
+}
+.email2{
+display: inline;
+margin-left: 50px;
+font-size: 14px;
+
+}
+.social2{
+display: inline;
+margin-left: 25px;
+font-size: 14px;
+
+} 
+.image2{
+    width: 23px;
+    height: 23px;
+}   
+    
+}
+@media only screen and (min-width: 561px) and (max-width: 768px) { 
+  body{
+   background-image: url("bgm.jpg");
+    background-size: cover;
+    background-position:top;
+    background-repeat: repeat;
+    text-align: center;
+    
+}
+
+
+.fleche{
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 75px;
+    margin-bottom: 135px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 20px;
+
+}
+.p1{
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+.image{
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+}
+
+nav{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr; 
+    height: 60px;
+   background-color: gainsboro;
+   opacity:0.5;
+}
+
+.ecrit1{
+    padding: 13px;
+    padding-bottom: 0px;
+}
+
+
+section{
+    background-color: white;
+   padding-top: 60px;
+   height: 2250px;
+}
+.GRANDE{
+    position: absolute;
+    display: block;
+    left: 10%;
+    right: 10%;
+    width: 80%;  
+}
+.cj{
+    width: 80%;
+    margin-top: 40px;
+}
+h2{
+    font-size: 25px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.p3{
+    padding: 10px;
+    height: 20px;
+    display: inline-block;
+    border: solid 1px;
+    width: 40%;
+    margin: 50px;
+    margin-bottom: 90px;
+}
+
+em{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+p{
+    font-size: 18px;
+    top: 100px;
+    margin: 0px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+     left: 5%;
+    right: 5%;
+    width: 100%;
+
+}
+.bos{
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.s1{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+   
+}
+.s2{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+strong{
+    top: 50px;
+    font-size: 14px;
+}
+.full{
+    display: inline-block;
+   padding: 10px;
+   margin: 35px;
+      margin-bottom: 60px;
+    height: 20px;
+     border: solid ;
+    width: 40%;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    height: 600px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 1000px;
+
+}
+aside{
+padding: 50px;
+height: max-content;
+}
+
+.case1{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.case2{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+
+}
+.case3{
+    width: 100%;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 0px;
+    position: absolute;
+}
+.p6{
+    border: solid 1px black;
+    width: 50%;
+    height: 20px;
+    padding: 15px;
+
+
+}
+article{
+    display: grid;
+   grid-template-areas: 
+	"adresse"
+	"phone"
+	"email"
+    "social";
+    gap: 0px;
+    width: 100%;
+    text-align: left;
+}
+.ADRESSE{
+    display: block;
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 25px;
+}
+.PHONE{
+    border-left: solid 1px gray;
+    text-align: justify;
+    padding: 40px;
+}
+.EMAIL{
+    border-left: solid 1px gray;
+    border-top: solid 1px gray;
+    text-align: justify;
+    padding: 40px;
+}
+.SOCIAL{
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 30px;
+}
+.adresse2{
+display: inline-block;
+margin-left: 40px;
+font-size: 14px;
+}
+.phone2{
+display: inline;
+margin-left: 50px;
+font-size: 14px;
+
+}
+.email2{
+display: inline;
+margin-left: 50px;
+font-size: 14px;
+
+}
+.social2{
+display: inline;
+margin-left: 25px;
+font-size: 14px;
+
+} 
+.image2{
+    width: 23px;
+    height: 23px;
+}   
+    
+}
