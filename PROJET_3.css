@@ -254,6 +254,255 @@ margin-left: 50px;
     width: 40px;
     margin-top: 10px;
 }
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+  body{
+   background-image: url("bgm.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat;
+    text-align: center;
+    
+}
+
+
+.fleche{
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 75px;
+    margin-bottom: 135px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 20px;
+
+}
+.p1{
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+.image{
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+}
+
+nav{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr; 
+    height: 50px;
+   background-color: gainsboro;
+   opacity:0.5;
+}
+
+.ecrit1{
+    padding: 13px;
+    padding-bottom: 0px;
+    font-size: 70%;
+}
+
+
+section{
+    background-color: white;
+   padding-top: 60px;
+   height: 2150px;
+}
+.GRANDE{
+    position: absolute;
+    display: block;
+    left: 10%;
+    right: 10%;
+    width: 80%;  
+}
+.cj{
+    width: 80%;
+    margin-top: 40px;
+}
+h2{
+    font-size: 25px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.p3{
+    padding: 10px;
+    height: 20px;
+    display: inline-block;
+    border: solid 1px;
+    width: 50%;
+    margin: 50px;
+    margin-bottom: 90px;
+}
+
+em{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+p{
+    font-size: 18px;
+    top: 100px;
+    margin: 0px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+     left: 5%;
+    right: 5%;
+    width: 100%;
+
+}
+.bos{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.s1{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+   
+}
+.s2{
+    padding: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+strong{
+    top: 50px;
+    font-size: 14px;
+}
+.full{
+    display: inline-block;
+   padding: 10px;
+   margin: 25%;
+      margin-left: 5%;
+    height: 20px;
+     border: solid ;
+    width: 70%;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 60%;
+
+}
+aside{
+padding: 50px;
+height: max-content;
+}
+
+.case1{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.case2{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+
+}
+.case3{
+    width: 100%;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 0px;
+    position: absolute;
+}
+.p6{
+    border: solid 1px black;
+    width: 70%;
+    height: 15px;
+    padding: 15px;
+    font-size: 14px;
+
+
+}
+article{
+    display: grid;
+   grid-template-areas: 
+	"adresse"
+	"phone"
+	"email"
+    "social";
+    gap: 0px;
+    width: 100%;
+    text-align: left;
+}
+.ADRESSE{
+    display: block;
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 25px;
+}
+.PHONE{
+    border-left: solid 1px gray;
+    text-align: justify;
+    padding: 40px;
+}
+.EMAIL{
+    border-left: solid 1px gray;
+    border-top: solid 1px gray;
+    text-align: justify;
+    padding: 40px;
+}
+.SOCIAL{
+    border: solid 1px gray;
+    text-align: justify;
+    padding: 30px;
+}
+.adresse2{
+display: inline-block;
+margin-left: 30px;
+font-size: 14px;
+}
+.phone2{
+display: inline;
+margin-left: 40px;
+font-size: 14px;
+
+}
+.email2{
+display: inline;
+margin-left: 40px;
+font-size: 14px;
+
+}
+.social2{
+display: inline;
+margin-left: 0px;
+font-size: 14px;
+
+} 
+.image2{
+    width: 23px;
+    height: 23px;
+}   
+pied-page-images{
+    margin: 0%;
+}
+    
+}
 @media only screen and (min-width: 480px) and (max-width: 560px) { 
   body{
    background-image: url("bgm.jpg");
